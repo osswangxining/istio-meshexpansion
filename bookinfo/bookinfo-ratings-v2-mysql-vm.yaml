@@ -34,7 +34,7 @@ spec:
           - name: DB_TYPE
             value: "mysql"
           - name: MYSQL_DB_HOST
-            value: mysqldb.default.svc.cluster.local
+            value: mysqldb.bookinfo.svc.cluster.local
           - name: MYSQL_DB_PORT
             value: "3306"
           - name: MYSQL_DB_USER
